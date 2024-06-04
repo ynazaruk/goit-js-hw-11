@@ -6,6 +6,6 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { fetchPhotos } from './js/pixabay-api.js';
 
-fetchPhotos().then(imagesData => {
-  console.log(imagesData.results);
-});
+// fetchPhotos().then(imagesData => {
+//   console.log(imagesData.results);
+// });
