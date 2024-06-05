@@ -1,12 +1,12 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-
-const API_KEY = '44119919-a0aa1893dc0c72e99b6a5bc11';
-const BASE_URL = 'https://pixabay.com/api/';
+import { galleryEL } from '../main';
+import { formEl } from '../main';
 
 export function fetchPhotos(inputValue) {
+  const BASE_URL = 'https://pixabay.com/api/';
   const searchParams = new URLSearchParams({
-    key: API_KEY,
+    key: '44119919-a0aa1893dc0c72e99b6a5bc11',
     q: inputValue,
     image_type: 'photo',
     orientation: 'horizontal',
