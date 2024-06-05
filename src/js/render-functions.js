@@ -14,8 +14,8 @@ export function displayImages(images) {
       image => `<li class="gallery-item">
       <a class="gallery-link" href ="${image.largeImageURL}">
       <img class="gallery-image"
-      width="1280"
-      height="152"
+      width="360"
+      height="200"
       src="${image.webformatURL}"
       data-source="${image.largeImageURL}"
       alt="${image.tags}" />
