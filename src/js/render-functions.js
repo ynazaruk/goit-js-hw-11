@@ -5,10 +5,10 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 import { galleryEL } from '../main';
-import { formEl } from '../main';
 
 export function displayImages(images) {
-  imgGallery.innerHTML = '';
+  galleryEL.innerHTML = '';
+
   return images
     .map(
       image => `<li class="gallery-item">
